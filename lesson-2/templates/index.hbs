@@ -1,0 +1,6 @@
+<ul>
+{{#each person in model}}
+  <li>{{person.firstName}} {{person.lastName}}</li>
+{{/each}}
+</ul>
+{{#link-to 'about'}}About{{/link-to}}
